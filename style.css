@@ -23,8 +23,7 @@ li{
     outline: none;
     color: white;
     font-size: 35px;
-    display: inline;
-    padding-left:100px;
+    float: right;
 }
 .exitbutton:hover{
     color:gray;
@@ -36,7 +35,8 @@ li{
     font-family: Nunito;
     font-size: 18px;
     text-align: center;
-    display: inline;
+    display: inline-block;
+    padding-top: 10px;
 }
 .topbar {
     text-align: center;
