@@ -1,0 +1,87 @@
+body {
+    font-family: Nunito;
+    font-weight: 500;
+    color: #282828;
+    margin: 0px;
+}
+img {
+    border-radius: 50%;
+    height: 55px;
+  }
+ul{
+    list-style-type: none;
+    margin-top: 0px;
+    column-count: 5;
+    row-gap: 10px;
+}
+li{
+    margin-top: 0px;
+}
+.exitbutton{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 35px;
+    display: inline;
+    padding-left:100px;
+}
+.exitbutton:hover{
+    color:gray;
+}
+.exitbutton:active{
+    border-style:none;
+}
+.windowtitle {
+    font-family: Nunito;
+    font-size: 18px;
+    text-align: center;
+    display: inline;
+}
+.topbar {
+    text-align: center;
+    color: white;
+    background-color: #5265E8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 12%;
+    width: 100%;
+}
+.topbarelements{
+    padding:10px;
+    display: inline;
+}
+.border{
+    border-bottom: 1px solid #1592E6;
+    border-left: 1px solid #1592E6;
+    border-right: 1px solid #1592E6;
+    height: 88%;
+}
+.theme {
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 5px 10px 10px #888888;
+    height: 42.5%;
+    width: 35%;
+    margin-bottom: 15px;
+}
+input[type=text] {
+    width: 94%;
+    height:52px;
+    margin-left: 3%;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color:silver;
+    background-image:url("assets/Filled-Action-search.svg");
+    background-repeat:no-repeat;
+    background-position: left 15px center;
+  }
+  
+
+input[type=text]:focus {
+   width:94%;
+   padding-left:20px;
+   background-image:none;
+  }
