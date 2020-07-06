@@ -14,16 +14,20 @@ img {
 
 ul{
     list-style-type: none;
-    margin-top: 0px;    
-    row-gap: 10px;
-    
+    margin-top: 5px; 
     padding-left:0;
+    margin-left:0;
 }
 
 li{
-    margin-top: 0px;
-    padding-left: 40px;
-    float: left;
+    display: block; 
+    height: 40px;
+    padding-left: 3%;
+    padding-top: 3px;
+}
+li:hover{
+    box-shadow: 0px 0px 8px 1px lightgray;
+    border-radius: 50px;
 }
 
 input:focus,
@@ -106,10 +110,15 @@ input[type=text] {
 }
 .agentname{
     vertical-align: middle;
-    margin-right: 100;
-    color: lightgray;
+    padding-left: 5px;
+    color: gray;
+    display: inline-block; 
+    width: 130px;
 }
 .agentstatus{
     text-align: center;
     vertical-align: middle;
+    color: lightgray;
+    display: inline-block;
+    width: 100px;
 }
