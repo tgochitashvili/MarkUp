@@ -12,20 +12,20 @@ img {
     vertical-align: middle;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin-top: 5px; 
     padding-left:0;
     margin-left:0;
 }
 
-li{
+li {
     display: block; 
     height: 40px;
     padding-left: 3%;
     padding-top: 3px;
 }
-li:hover{
+li:hover {
     box-shadow: 0px 0px 8px 1px lightgray;
     border-radius: 50px;
 }
