@@ -63,18 +63,22 @@ input[type=text] {
     padding-right: 15px;
     padding-top: 5px;
 }
+
 .exitbutton:hover{
     color:gray;
 }
+
 .exitbutton:active{
     border-style:none;
 }
+
 .windowtitle {
     font-size: 18px;
     text-align: center;
     display: inline-block;
     padding-top: 10px;
 }
+
 .topbar {
     text-align: center;
     color: white;
@@ -84,12 +88,14 @@ input[type=text] {
     height: 12%;
     width: 100%;
 }
+
 .border{
     border-bottom: 1px solid #1592E6;
     border-left: 1px solid #1592E6;
     border-right: 1px solid #1592E6;
     height: 88%;
 }
+
 .theme {
     margin-top: 100px;
     margin-left: 100px;
@@ -115,6 +121,7 @@ input[type=text] {
     display: inline-block; 
     width: 130px;
 }
+
 .agentstatus{
     text-align: center;
     vertical-align: middle;
