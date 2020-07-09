@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Nunito';
-    src: url("fonts/Nunito-Black.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("fonts/Nunito-Black.ttf")  format('truetype');
   }
 
 body {
