@@ -113,19 +113,15 @@ input[type=text] {
 .agenttext{
     font-size: 16;
     font-weight: normal;
-}
-.agentname{
     vertical-align: middle;
     padding-left: 5px;
     color: gray;
-    display: inline-block; 
+    display: inline-block;
     width: 130px;
 }
 
 .agentstatus{
     text-align: center;
-    vertical-align: middle;
     color: lightgray;
-    display: inline-block;
     width: 100px;
 }
