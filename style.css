@@ -20,13 +20,16 @@ ul {
 }
 
 li {
-    display: block; 
+    display: inline-block; 
     height: 40px;
-    padding-left: 3%;
-    padding-top: 3px;
+    margin: auto;
+    padding-left: 2%;
+    padding-top: 17px;
+    height: 54px;
+    width: 640px;
 }
 li:hover {
-    box-shadow: 0px 0px 8px 1px lightgray;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
 }
 
@@ -52,7 +55,7 @@ input[type=text] {
     background-repeat:no-repeat;
     background-position: left 15px center;
     padding-left: 40px;
-  }
+}
 
 .exitbutton{
     background: none;
