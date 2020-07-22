@@ -100,12 +100,13 @@ input[type=text] {
 }
 
 .theme {
-    margin-top: 100px;
-    margin-left: 100px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
     box-shadow: 5px 10px 10px #888888;
     height: 42.5%;
     width: 35%;
-    margin-bottom: 15px;
+
 }
 .agents{
     font-weight: 600;
